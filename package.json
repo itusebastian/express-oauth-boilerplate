@@ -1,0 +1,46 @@
+{
+  "name": "express-oauth-boilerplate",
+  "version": "1.0.0",
+  "description": "Express.js OAuth boilerplate with Google authentication, MongoDB, and Swagger documentation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "jest",
+    "swagger": "node swagger.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "express",
+    "oauth",
+    "google-oauth",
+    "authentication",
+    "boilerplate",
+    "passport"
+  ],
+  "author": "Sebastián Iturralde",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.10.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.10.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-node": "^11.1.0",
+    "globals": "^17.12.0",
+    "jest": "^30.5.2",
+    "prettier": "^3.9.6",
+    "swagger-autogen": "^2.23.7"
+  }
+}
